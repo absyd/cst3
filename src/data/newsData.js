@@ -53,4 +53,13 @@ export const newsData = [
     author: "Tournament Committee",
     category: "Announcement"
   },
+  {
+    id: 6,
+    title: "CST TECH TITANS TROPHY এর সকল খেলা নির্ধারিত সময়ে অনুষ্ঠিত হবে ",
+    summary: "All matches will be held at the scheduled time.",
+    content: "All matches will be held at the scheduled time.",
+    date: "2026-04-16",
+    author: "Tournament Committee",
+    category: "Announcement"
+  },
 ]

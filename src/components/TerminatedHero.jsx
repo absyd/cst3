@@ -1,10 +1,13 @@
 import Countdown from './Countdown'
+import LatestNewsPreview from './LatestNewsPreview'
 
 const TerminatedHero = ({ timeLeft }) => {
   return (
     <div className='min-h-screen   to-slate-950 flex flex-col items-center justify-center p-4 sm:p-6 lg:p-8'>
       {/* Main Content Container */}
       <div className='w-full max-w-4xl mx-auto text-center space-y-6 sm:space-y-8 lg:space-y-12'>
+
+        <LatestNewsPreview />
         
         {/* Tournament Title */}
         <div className='space-y-2 sm:space-y-4'>
