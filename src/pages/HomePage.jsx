@@ -18,6 +18,7 @@ import { standingsData } from '../data/standingsData'
 import { rulesData } from '../data/rulesData'
 import { Link } from 'react-router-dom'
 import TerminatedHero from '../components/TerminatedHero'
+import { LiveScoreCTA } from '../components/LiveScoreCTA'
 
 function HomePage() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
@@ -45,6 +46,12 @@ function HomePage() {
   return (
     <div>
 
+      <div className="my-3">
+        <div className="mt-5">
+          <LiveScoreCTA/>
+        </div>
+        <Standings standings={standingsData} />
+      </div>
 
 
       <div className="my-2 mb-12">
